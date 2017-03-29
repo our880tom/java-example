@@ -4,13 +4,13 @@ public class StackOverFlowDemo {
 	public static void main(String[] args) {
 		method();
 	}
-	
-	public static void method(){
-		for(;;){
+
+	public static void method() {
+		for (;;) {
 			method();
 		}
-		
+
 	}
-	
-	//没有设置jvm参数
+
+	// 没有设置jvm参数
 }
