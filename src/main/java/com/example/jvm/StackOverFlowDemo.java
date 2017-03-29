@@ -9,6 +9,7 @@ public class StackOverFlowDemo {
 		for(;;){
 			method();
 		}
+		
 	}
 	
 	//没有设置jvm参数
