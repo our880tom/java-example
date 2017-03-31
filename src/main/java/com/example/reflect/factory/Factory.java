@@ -10,5 +10,6 @@ public class Factory {
 		a.show();
 		Product b = Factory.getProduct("com.example.reflect.factory.ProductB");
 		b.show();
+		
 	}
 }
