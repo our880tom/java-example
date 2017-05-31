@@ -6,7 +6,10 @@ package com.example.generic;
 public class GenericObject {
     public static void main(String[] args){
         Bean<String> name = new Bean<String>("add");
+        Bean<Integer> age = new Bean<Integer>(22);
+
         System.out.println("name:" + name.getData());
+        System.out.println("age:" + age.getData());
     }
 }
 
