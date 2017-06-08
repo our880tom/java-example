@@ -42,6 +42,7 @@ class Container{
         goods[index] = good;
         index ++;
         notifyAll();
+
     }
 
     public synchronized Goods pop(){
